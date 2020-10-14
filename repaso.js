@@ -163,7 +163,7 @@ function ejecutoLuego(mensaje){
 
 
 
-/* 8- Colocar el llamado a la funcion "ejecutoLuego" en el lugar correcto para que se ejecute LUEGO de 3 segundos */
+/* 8- Colocar el llamado a la funcion "ejecutoLuego" en el lugar correcto para que se ejecute LUEGO de 3 segundos
 
 function ejecucionRetrasada(cb){
     //Corregir esto
@@ -171,6 +171,7 @@ function ejecucionRetrasada(cb){
     setTimeout(_cb,3000)
 }
 
-ejecucionRetrasada()
+ejecucionRetrasada() */
 
 /* setTimeout(function(){ alert("Hello"); }, 3000) */
+
